@@ -438,79 +438,79 @@
             tags: {
                 "b":  {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 },
                 "i":  {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 },
                 "br": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 },
                 "ol": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 },
                 "ul": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 },
                 "li": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 },
                 "h1": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 },
                 "h2": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 },
                 "h3": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 },
                 "blockquote": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 },
                 "u": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 },
                 "img": {
@@ -519,9 +519,9 @@
                         "alt": "alt",
                         "src": "url",
                         "height": "numbers",
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     }
                 },
                 "a":  {
@@ -530,42 +530,42 @@
                         "rel":    "nofollow"
                     },
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string",
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings",
                         "href":   "url" // important to avoid XSS
                     }
                 },
                 "span": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 "div": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 // to allow save and edit files with code tag hacks
                 "code": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 "pre": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     },
                 "p": {
                     "check_attributes": {
-                        "class": "string",
-                        "style": "string",
-                        "id": "string"
+                        "class": "strings",
+                        "style": "strings",
+                        "id": "strings"
                     }
                 }
             }
