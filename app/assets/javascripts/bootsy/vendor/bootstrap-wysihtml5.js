@@ -468,7 +468,13 @@
                 "div": 1,
                 // to allow save and edit files with code tag hacks
                 "code": 1,
-                "pre": 1
+                "pre": 1,
+                "p": {
+                    "check_attributes": {
+                        "class": "alt",
+                        "id": "alt"
+                    }
+                }
             }
         },
         stylesheets: ["./lib/css/wysiwyg-color.css"], // (path_to_project/lib/css/wysiwyg-color.css)
