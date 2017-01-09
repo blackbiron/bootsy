@@ -436,43 +436,136 @@
                 "wysiwyg-color-orange" : 1
             },
             tags: {
-                "b":  {},
-                "i":  {},
-                "br": {},
-                "ol": {},
-                "ul": {},
-                "li": {},
-                "h1": {},
-                "h2": {},
-                "h3": {},
-                "blockquote": {},
-                "u": 1,
+                "b":  {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                },
+                "i":  {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                },
+                "br": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                },
+                "ol": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                },
+                "ul": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                },
+                "li": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                },
+                "h1": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                },
+                "h2": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                },
+                "h3": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                },
+                "blockquote": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                },
+                "u": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                },
                 "img": {
                     "check_attributes": {
                         "width": "numbers",
                         "alt": "alt",
                         "src": "url",
-                        "height": "numbers"
+                        "height": "numbers",
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
                     }
                 },
                 "a":  {
-                    set_attributes: {
-                        target: "_blank",
-                        rel:    "nofollow"
+                    "set_attributes": {
+                        "target": "_blank",
+                        "rel":    "nofollow"
                     },
-                    check_attributes: {
-                        href:   "url" // important to avoid XSS
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string",
+                        "href":   "url" // important to avoid XSS
                     }
                 },
-                "span": 1,
-                "div": 1,
+                "span": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                "div": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
                 // to allow save and edit files with code tag hacks
-                "code": 1,
-                "pre": 1,
+                "code": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
+                "pre": {
+                    "check_attributes": {
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
+                    },
                 "p": {
                     "check_attributes": {
-                        "class": "alt",
-                        "id": "alt"
+                        "class": "string",
+                        "style": "string",
+                        "id": "string"
                     }
                 }
             }
