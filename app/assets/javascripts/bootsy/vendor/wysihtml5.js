@@ -5085,7 +5085,7 @@ wysihtml5.dom.parse = (function() {
     })(),
 
     strings: (function() {
-      var REG_EXP = /.*/g;
+      var REG_EXP = /.*/;
       return function(attributeValue) {
         attributeValue = (attributeValue || "");
         return attributeValue || null;
